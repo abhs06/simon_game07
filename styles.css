@@ -1,0 +1,74 @@
+
+body {
+  text-align: center;
+  background: rgb(12,1,48);
+background: linear-gradient(90deg, rgba(12,1,48,1) 0%, rgba(2,0,36,1) 11%, rgba(69,9,121,1) 35%, rgba(0,212,255,1) 89%);
+}
+
+#level-title {
+font-family: 'ZCOOL KuaiLe', cursive;
+font-size:3rem;
+color:white;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+.footer{
+font-size: 2.5rem;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 15%;
+  caret-color: rgba(0,0,0,0);
+}
+.iconn{
+  font-family: 'ZCOOL KuaiLe', cursive;
+color: white;
+font-weight: bolder;
+text-decoration: none;
+}
+.icon{
+  color: white;
+  font-weight: bolder;
+}
+
+.game-over {
+  background: rgb(97,3,41);
+  background: linear-gradient(90deg, rgba(97,3,41,1) 0%, rgba(255,0,18,1) 42%, rgba(193,160,181,1) 100%, rgba(69,9,121,1) 100%);  opacity: 0.8;
+}
+
+.red {
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(247,0,0,1) 54%, rgba(252,176,69,1) 100%);
+}
+
+.green {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,247,0,1) 51%, rgba(252,176,69,1) 100%);
+}
+
+.blue {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(33,0,247,1) 51%, rgba(252,176,69,1) 100%);
+}
+
+.yellow {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(246,247,0,1) 51%, rgba(252,176,69,1) 100%);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 16%);
+}
