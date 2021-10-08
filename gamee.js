@@ -1,4 +1,4 @@
-
+window.alert("You have to start with any key press and follow the pattern from the start as block blinks click on the block and keep memorising the pattern\n All the best :)");
 var gamePattern=[];
 var started = false;
  var level = 0;
